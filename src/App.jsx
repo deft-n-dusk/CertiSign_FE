@@ -4,6 +4,7 @@ import Signup from "./pages/Signup";
 import UploadSign from "./pages/UploadSign";
 import PrivateRoute from "./components/PrivateRoute";
 import PublicRoute from "./components/PublicRoute";
+import AuditTrail from "./pages/AuditTrail";
 
 function App() {
   return (
