@@ -25,6 +25,14 @@ export default function Navbar() {
 
       {/* Right-side actions */}
       <div>
+
+         <button
+          onClick={() => navigate("/audit")}
+          className="bg-white text-indigo-600 font-medium px-4 py-2 rounded-lg shadow hover:bg-gray-100 transition duration-200"
+        >
+          Audit Trail
+        </button>
+
         <button
           onClick={handleLogout}
           className="bg-white text-blue-600 font-medium px-4 py-2 rounded-lg shadow hover:bg-gray-100 transition duration-200"

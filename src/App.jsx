@@ -18,6 +18,7 @@ function App() {
         {/* Private routes */}
         <Route element={<PrivateRoute />}>
           <Route path="/upload" element={<UploadSign />} />
+          <Route path="/audit" element={<AuditTrail />} />
         </Route>
 
         {/* Default redirect */}
