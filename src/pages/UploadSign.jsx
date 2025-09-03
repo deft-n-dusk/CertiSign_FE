@@ -22,7 +22,7 @@ export default function UploadSign() {
       });
       const id = res.data.documentId;
       setDocId(id);
-      setDownloadUrl(`http://localhost:2713/download/${id}`);
+      setDownloadUrl(`https://certisign-be.onrender.com/download/${id}`);
       setMessage("✅ PDF signed successfully!");
     } catch (err) {
       setMessage("❌ Upload failed: " + (err.response?.data || err.message));
