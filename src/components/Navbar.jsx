@@ -24,7 +24,7 @@ export default function Navbar() {
       </button>
 
       {/* Right-side actions */}
-      <div>
+      <div className="flex gap-4">
 
          <button
           onClick={() => navigate("/audit")}
