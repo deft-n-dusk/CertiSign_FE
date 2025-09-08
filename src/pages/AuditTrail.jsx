@@ -41,7 +41,7 @@ export default function AuditTrail() {
               {docs.length === 0 && (
                 <tr>
                   <td colSpan="3" className="text-center py-4 text-gray-500">
-                    No signed documents found
+                    No signed documents found.
                   </td>
                 </tr>
               )}
